@@ -78,16 +78,21 @@ const theme = {
   },
   shadows: {
     small: css`
-      box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075);
+      box-shadow:
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.075);
     `,
     medium: css`
       box-shadow: 0 2px 16px rgb(0 0 0 / 12%);
     `,
     large: css`
-      box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+      box-shadow:
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075),
+        0 16px 16px hsl(0deg 0% 0% / 0.075);
     `,
   },
   media,
@@ -95,7 +100,7 @@ const theme = {
     'heading-1': css`
       font-size: 60px;
       line-height: 1.25;
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
 
       ${media.laptop} {
         font-size: 3rem;
@@ -112,7 +117,7 @@ const theme = {
     'heading-2': css`
       font-size: 48px;
       line-height: 1.25;
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
 
       ${media.laptop} {
         font-size: 3rem;
@@ -129,7 +134,7 @@ const theme = {
     'heading-3': css`
       font-size: 32px;
       line-height: 1.25;
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
 
       ${media.laptop} {
         font-size: 3rem;
@@ -147,7 +152,7 @@ const theme = {
     'heading-4': css`
       font-size: 24px;
       line-height: 1.25;
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
 
       ${media.laptop} {
         font-size: 24px;
@@ -160,10 +165,10 @@ const theme = {
     'heading-5': css`
       font-size: 18px;
       line-height: 1.25;
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
     `,
     subtitle: css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 24px;
       line-height: calc(1em + 0.725rem);
 
@@ -172,7 +177,7 @@ const theme = {
       }
     `,
     body: css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 18px;
       line-height: calc(1em + 0.725rem);
 
@@ -181,51 +186,51 @@ const theme = {
       }
     `,
     'body-big': css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 24px;
       line-height: calc(1em + 0.725rem);
     `,
     'body-big-bold': css`
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 24px;
       line-height: calc(1em + 0.725rem);
     `,
     'body-bold': css`
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 18px;
       line-height: calc(1em + 0.725rem);
     `,
     'body-small': css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 14px;
       line-height: calc(1em + 0.725rem);
     `,
     'body-medium': css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       line-height: calc(1em + 0.725rem);
     `,
     caption: css`
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 12px;
       line-height: 1.4;
       text-transform: uppercase;
     `,
     error: css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 14px;
       line-height: calc(1em + 0.725rem);
       color: rgba(255, 51, 102, 0.8);
     `,
     label: css`
-      font-family: 'GTWalsheim-Medium', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 12px;
       text-transform: uppercase;
       line-height: 2;
       letter-spacing: 2px;
     `,
     action: css`
-      font-family: 'GTWalsheim-Regular', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       font-weight: 700;
       line-height: 1.4;
