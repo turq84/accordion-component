@@ -2,14 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   // NOTE: using `plugin:` prefix makes it so that the corresponding
   // eslint plugin is automatically enabled and the rules are turned on
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:jsx-a11y/recommended',
-    'plugin:lodash/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'prettier',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:jsx-a11y/recommended', 'plugin:lodash/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'prettier', 'plugin:storybook/recommended'],
   plugins: ['@typescript-eslint', 'import', 'jsx-a11y', 'lodash'],
   parserOptions: {
     ecmaVersion: 2018,
