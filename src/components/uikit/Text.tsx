@@ -51,7 +51,6 @@ const variantToTag: { [key in Typography]: Partial<Tags> } = {
   'body-big-bold': 'p',
   'body-bold': 'p',
   'body-small': 'p',
-  'body-medium': 'p',
   error: 'p',
 };
 

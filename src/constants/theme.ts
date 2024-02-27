@@ -34,6 +34,11 @@ const theme = {
     border: '#D3D9E3',
     borderMuted: 'rgba(211, 217, 227, 0.5)',
     white: '#FFFFFF',
+
+    // Grey colors
+    muted1: '#FAFAFA',
+    muted2: '#9F9F9F',
+    muted3: '#E6E6E6',
   },
   radii: {
     none: '0px',
@@ -99,6 +104,7 @@ const theme = {
   typography: {
     'heading-1': css`
       font-size: 60px;
+      font-weight: 500;
       line-height: 1.25;
       font-family: 'Inter', sans-serif;
 
@@ -116,6 +122,7 @@ const theme = {
     `,
     'heading-2': css`
       font-size: 48px;
+      font-weight: 500;
       line-height: 1.25;
       font-family: 'Inter', sans-serif;
 
@@ -133,6 +140,7 @@ const theme = {
     `,
     'heading-3': css`
       font-size: 32px;
+      font-weight: 500;
       line-height: 1.25;
       font-family: 'Inter', sans-serif;
 
@@ -151,6 +159,7 @@ const theme = {
 
     'heading-4': css`
       font-size: 24px;
+      font-weight: 500;
       line-height: 1.25;
       font-family: 'Inter', sans-serif;
 
@@ -163,13 +172,15 @@ const theme = {
       }
     `,
     'heading-5': css`
-      font-size: 18px;
+      font-size: 16px;
+      font-weight: 400;
       line-height: 1.25;
       font-family: 'Inter', sans-serif;
     `,
     subtitle: css`
       font-family: 'Inter', sans-serif;
       font-size: 24px;
+      font-weight: 400;
       line-height: calc(1em + 0.725rem);
 
       ${media.tablet} {
@@ -178,53 +189,56 @@ const theme = {
     `,
     body: css`
       font-family: 'Inter', sans-serif;
-      font-size: 18px;
+      font-size: 16px;
+      font-weight: 300;
       line-height: calc(1em + 0.725rem);
 
       ${media.tablet} {
-        font-size: 18px;
+        font-size: 16px;
       }
+    `,
+    'body-bold': css`
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: calc(1em + 0.725rem);
     `,
     'body-big': css`
       font-family: 'Inter', sans-serif;
       font-size: 24px;
+      font-weight: 300;
       line-height: calc(1em + 0.725rem);
     `,
     'body-big-bold': css`
       font-family: 'Inter', sans-serif;
       font-size: 24px;
-      line-height: calc(1em + 0.725rem);
-    `,
-    'body-bold': css`
-      font-family: 'Inter', sans-serif;
-      font-size: 18px;
+      font-weight: 500;
       line-height: calc(1em + 0.725rem);
     `,
     'body-small': css`
       font-family: 'Inter', sans-serif;
       font-size: 14px;
-      line-height: calc(1em + 0.725rem);
-    `,
-    'body-medium': css`
-      font-family: 'Inter', sans-serif;
-      font-size: 16px;
+      font-weight: 300;
       line-height: calc(1em + 0.725rem);
     `,
     caption: css`
       font-family: 'Inter', sans-serif;
       font-size: 12px;
+      font-weight: 300;
       line-height: 1.4;
       text-transform: uppercase;
     `,
     error: css`
       font-family: 'Inter', sans-serif;
       font-size: 14px;
+      font-weight: 300;
       line-height: calc(1em + 0.725rem);
       color: rgba(255, 51, 102, 0.8);
     `,
     label: css`
       font-family: 'Inter', sans-serif;
       font-size: 12px;
+      font-weight: 300;
       text-transform: uppercase;
       line-height: 2;
       letter-spacing: 2px;
@@ -232,7 +246,7 @@ const theme = {
     action: css`
       font-family: 'Inter', sans-serif;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 500;
       line-height: 1.4;
     `,
   },
