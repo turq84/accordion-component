@@ -76,7 +76,6 @@ const Header = styled.h3<{ openState: boolean }>`
 
 const AccordionContent = styled.div`
   padding: ${(props) => props.theme.spacing.normal};
-  ${(props) => props.theme.typography.body};
 `;
 
 const ArrowIcon = styled(DownArrow)`
